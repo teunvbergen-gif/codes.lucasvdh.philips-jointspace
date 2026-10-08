@@ -329,7 +329,7 @@ export class JointspaceApi {
     const data = {
       device: state.device,
       auth: {
-        auth_AppId: "1",
+        auth_appId: "1",
         pin,
         auth_timestamp: state.timestamp,
         auth_signature: signature,
